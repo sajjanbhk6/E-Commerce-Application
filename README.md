@@ -37,14 +37,27 @@
 - Auth0
 - Swagger UI
 
-# Running the app
-1. Clone the repository: git clone https://github.com/Sirajuddin135/E-Commerce-Application.git
-2. Import the project into STS:
-  - Click File > Import...
-  - Select Maven > Existing Maven Projects and click Next
-  - Browse to the project directory and click Finish
-3. Update the values in application.properties with your MySQL database connection details.
-4. Run the app: Right-click the project in the Package Explorer and click Run As > Spring Boot App.
+## Running the App
+
+1. **Download the Project**  
+   - Ensure you have the latest version of the codebase on your system.  
+
+2. **Import into Spring Tool Suite (STS)**  
+   - Open STS.  
+   - Go to **File > Import**.  
+   - Select **Maven > Existing Maven Projects** and click **Next**.  
+   - Browse to the project directory and click **Finish**.  
+
+3. **Configure the Database**  
+   - Open `application.properties`.  
+   - Set your MySQL database connection details (URL, username, password).  
+
+4. **Run the Application**  
+   - Right-click the project in the Package Explorer.  
+   - Select **Run As > Spring Boot App**.  
+
+5. **Access the Application**  
+   - Once started, the app will be available at: `http://localhost:8080`
 
 # API documentation
 - API documentation is available via Swagger UI at http://localhost:8080/swagger-ui/index.html
